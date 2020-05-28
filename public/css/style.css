@@ -1,0 +1,39 @@
+.landpage {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    height: 100%;
+}
+.landtitle {
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius:0%;
+}
+
+.landtitle h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.items {
+    padding-top:5%;
+}
+.bottomcard {
+    padding-top:18px;
+    padding-bottom:18px;
+    border-top-left-radius: 0%;
+    border-top-right-radius:0%;
+}
+
+.results {
+    margin-top:100px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+    padding-top:2.5%;
+    background-color: #ffffff;
+    border-radius: .25rem;
+}
+
+.results h1 { 
+    font-family: 'Permanent Marker', cursive;
+}

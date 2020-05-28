@@ -1,0 +1,21 @@
+html
+head
+    link(href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet")
+    link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    link(href='../css/style.css' rel='stylesheet')
+    // ---- Include the above in your HEAD tag --------
+    link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/all.css' integrity='sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt' crossorigin='anonymous')
+body
+    .landpage
+        .container
+            br
+            .row.justify-content-center
+                .col-12.col-md-10.col-lg-8.results
+                    h1=name
+                    hr
+                    ul
+                        each standard in inlist
+                            li=standard
+

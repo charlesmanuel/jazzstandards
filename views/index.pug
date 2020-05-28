@@ -1,0 +1,32 @@
+html
+head
+    link(href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet")
+    link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    link(href='./css/style.css' rel='stylesheet')
+    // ---- Include the above in your HEAD tag --------
+    link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/all.css' integrity='sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt' crossorigin='anonymous')
+body
+    .landpage
+        .container
+            br
+            .row.justify-content-center
+                .col-12.col-md-10.col-lg-8.items
+                    .card.card-sm.border.landtitle
+                        h1 Jazz Standard Library
+                        hr
+                        i Find notable recordings of jazz standards. <br> Just enter the name of a standard and browse results.
+                    img(style="width: 100%" src="./img/three-musicians.jpg")
+                    form.card.card-sm.border.bottomcard(action='/' method='POST')
+                        .card-body.row.align-items-center
+                            .col-auto
+                                i.fas.fa-search.h4.text-body
+                            // end of col
+                            .col
+                                input.form-control.form-control-lg.form-control-borderless(name = "inputStandard" type='search' placeholder='Enter the name of a standard')
+                            // end of col
+                            .col-auto
+                                button.btn.btn-lg.btn-success(type='submit') Search
+                            // end of col
+                // end of col
